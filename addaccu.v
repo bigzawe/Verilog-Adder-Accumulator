@@ -7,7 +7,7 @@ module addaccu (sum,carry,a,b,sel,ck);
     input 			ck; 
     
 	
-	reg 	[4:0] 	temp;
+    reg 	[4:0] 	temp;
     reg 	[3:0] 	muxout;
     reg 	[3:0] 	regout;
 
